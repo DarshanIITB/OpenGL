@@ -4,6 +4,8 @@
 #include <string>
 #include <sstream>
 #include "Renderer.h"
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
 
 
 Shader::Shader(const std::string& filepath)
