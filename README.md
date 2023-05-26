@@ -1,4 +1,3 @@
-# OpenGL
 <h1>Learning OpenGL</h1>
 
 <h2>Progress till now:</h2>
