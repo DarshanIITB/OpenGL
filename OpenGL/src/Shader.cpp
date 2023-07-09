@@ -4,8 +4,6 @@
 #include <string>
 #include <sstream>
 #include "Renderer.h"
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
 
 
 Shader::Shader(const std::string& filepath)
@@ -99,6 +97,11 @@ void Shader::SetUniform1i(const std::string& name, int value)
 void Shader::SetUniform1f(const std::string& name, float value)
 {
     GLCall(glUniform1f(GetUniformLocation(name), value));
+}
+
+void Shader::SetUniformVec3(const std::string& name, float x, float y, float z)
+{
+    GLCall(glUniform3f(GetUniformLocation(name), x, y, z));
 }
 
 void Shader::SetUniform4f(const std::string& name, float v0, float v1, float v2, float v3)

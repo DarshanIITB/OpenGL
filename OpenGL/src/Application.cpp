@@ -117,7 +117,7 @@ int main(void)
         return -1;
     }
 
-    
+
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
     glfwSetCursorPosCallback(window, mouse_callback);
