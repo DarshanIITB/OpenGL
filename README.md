@@ -7,4 +7,5 @@
   <li>Abstracting the code into classes</li>
   <li>Adding Textures</li>
   <li>Adding Camera Movement</li>
+  <li>Added Lighting</li>
 </ul>
